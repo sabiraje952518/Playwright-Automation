@@ -16,4 +16,6 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Log in' }).click();
 
   await page.waitForTimeout(3000)
+  await page.close();
+ 
 });

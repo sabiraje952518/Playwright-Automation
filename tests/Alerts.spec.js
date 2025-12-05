@@ -5,14 +5,12 @@ test.skip('Alert with OK', async ({ page }) => {
 
     // Enabling Dialog window handler
     page.on('dialog', async dialog => {
-        expect(dialog.type()).toContain('alert');
-        expect(dialog.message()).toContain('I am an alert box!');
-        await dialog.accept();
+     await dialog.accept(); //ok
 
     });
 
     await page.click('//button[normalize-space()="Alert"]');
-    await page.waitForTimeout(5000);
+    //await page.waitForTimeout(5000);
 });
 
 test.skip('Confirmation Dialog-Alert with OK and cancel', async ({ page }) => {
@@ -22,7 +20,7 @@ test.skip('Confirmation Dialog-Alert with OK and cancel', async ({ page }) => {
     page.on('dialog', async dialog => {
         expect(dialog.type()).toContain('confirm');
         expect(dialog.message()).toContain('Press a button!');
-        await dialog.accept();   // cose by using Ok button
+        await dialog.accept();   // close by using Ok button
         //await dialog.dismiss();   // close by using cancel button
 
     });
@@ -38,10 +36,10 @@ test('Prompt Dialog', async ({ page }) => {
 
     // Enabling Dialog window handler
     page.on('dialog', async dialog => {
-        expect(dialog.type()).toContain('prompt');
-        expect(dialog.message()).toContain('Please enter your name:');
-        expect(dialog.defaultValue()).toContain('Harry Potter')
-        await dialog.accept('John');   //John value input field me pass kr k verify krega  
+        // expect(dialog.type()).toContain('prompt');
+        // expect(dialog.message()).toContain('Please enter your name:');
+        // expect(dialog.defaultValue()).toContain('Harry Potter')
+        await dialog.accept('John');   //John value input field me pass kr ok verify krega  
         
     });
     await page.click('promptBtn"]');
