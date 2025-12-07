@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');        //Iske through hum Playwright ko import kar lenge
 
-test.skip("Valid Login", async ({ page }) => {             //Test script yha se start hota hai jisme valid login ko hmlog description koi bhi ho skta hai
+test("Valid Login", async ({ page }) => {             //Test script yha se start hota hai jisme valid login ko hmlog description koi bhi ho skta hai
         // async keyword use krte hai Asynchronous k liye taki koi bhi promise fulfill ho jaye jaise click, fill, checked etc.
         // Page yha par new page open krne k liye likhte hai yha par browser bhi ho skta hai jise context broser bhi kah skte hai
 
@@ -28,7 +28,7 @@ test.skip("Valid Login", async ({ page }) => {             //Test script yha se 
 
 });
 
-test.only("InValid Login", async ({ page }) => {
+test.skip("InValid Login", async ({ page }) => {
 
   await page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
