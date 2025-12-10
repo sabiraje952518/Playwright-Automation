@@ -1,0 +1,105 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - list [ref=e2]:
+    - listitem [ref=e3]:
+      - link "Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+    - listitem [ref=e5]:
+      - link "Main Content" [ref=e6] [cursor=pointer]:
+        - /url: "#main"
+  - banner [ref=e7]:
+    - generic [ref=e8]:
+      - link "DWB" [ref=e10] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e11]:
+        - list [ref=e12]:
+          - listitem [ref=e13]:
+            - link [ref=e14] [cursor=pointer]:
+              - /url: /feed
+          - listitem [ref=e15]:
+            - link [ref=e16] [cursor=pointer]:
+              - /url: //twitter.com/davidwalshblog
+          - listitem [ref=e17]:
+            - link [ref=e18] [cursor=pointer]:
+              - /url: //facebook.com/davidwalshblog
+          - listitem [ref=e19]:
+            - link [ref=e20] [cursor=pointer]:
+              - /url: //github.com/darkwing
+          - listitem [ref=e21]:
+            - link [ref=e22] [cursor=pointer]:
+              - /url: //linkedin.com/in/davidjameswalsh
+          - listitem
+        - generic [ref=e25]:
+          - generic [ref=e26]: Search
+          - searchbox "Search" [ref=e27]
+  - generic [ref=e29]:
+    - strong [ref=e30]: "Popular:"
+    - list [ref=e31]:
+      - listitem [ref=e32]:
+        - link "JavaScript Promises" [ref=e33] [cursor=pointer]:
+          - /url: /promises
+      - listitem [ref=e34]:
+        - link "fetch API" [ref=e35] [cursor=pointer]:
+          - /url: /fetch
+      - listitem [ref=e36]:
+        - link "React.js" [ref=e37] [cursor=pointer]:
+          - /url: /tutorials/react
+      - listitem [ref=e38]:
+        - link "Cache API" [ref=e39] [cursor=pointer]:
+          - /url: /cache
+      - listitem [ref=e40]:
+        - link "ES6 Features" [ref=e41] [cursor=pointer]:
+          - /url: /es6-features
+      - listitem [ref=e42]:
+        - link "Node.js" [ref=e43] [cursor=pointer]:
+          - /url: /tutorials/nodejs
+      - listitem [ref=e44]:
+        - link "JavaScript" [ref=e45] [cursor=pointer]:
+          - /url: /tutorials/javascript
+      - listitem [ref=e46]:
+        - link "jQuery" [ref=e47] [cursor=pointer]:
+          - /url: /tutorials/jquery
+  - main [ref=e50]:
+    - generic [ref=e51]:
+      - 'heading "Demo: Multiple File Upload Input" [level=1] [ref=e52]'
+      - generic [ref=e53]:
+        - text: Read
+        - link "Multiple File Upload Input" [ref=e54] [cursor=pointer]:
+          - /url: https://davidwalsh.name/multiple-file-upload
+      - generic [ref=e55]:
+        - generic:
+          - link:
+            - /url: //twitter.com/share
+        - iframe [ref=e57]:
+          - table [ref=f1e5]:
+            - rowgroup [ref=f1e6]:
+              - row "Like 26 people like this. Sign Up to see what your friends like." [ref=f1e7]:
+                - cell "Like 26 people like this. Sign Up to see what your friends like." [ref=f1e8]:
+                  - table [ref=f1e9]:
+                    - rowgroup [ref=f1e10]:
+                      - row "Like 26 people like this. Sign Up to see what your friends like." [ref=f1e11]:
+                        - cell "Like" [ref=f1e12]:
+                          - button "Like" [ref=f1e15] [cursor=pointer]:
+                            - generic [ref=f1e17]: Like
+                        - cell "26 people like this. Sign Up to see what your friends like." [ref=f1e20]:
+                          - generic [ref=f1e22]:
+                            - text: 26 people like this.
+                            - generic [ref=f1e23]:
+                              - link "Sign Up" [ref=f1e24] [cursor=pointer]:
+                                - /url: /ad_campaign/landing.php?campaign_id=137675572948107&partner_id=davidwalsh.name&placement=like_plugin&extra_1=https%3A%2F%2Fdavidwalsh.name%2F&extra_2=IN
+                              - text: to see what your friends like.
+      - paragraph [ref=e58]: Description...
+      - paragraph [ref=e59]:
+        - strong [ref=e60]: "Upload Files:"
+        - button "Choose File" [ref=e61]
+      - paragraph [ref=e62]:
+        - strong [ref=e63]: "Files You Selected:"
+      - list [ref=e64]:
+        - listitem [ref=e65]: No Files Selected
+    - paragraph [ref=e66]:
+      - text: "Back to:"
+      - link "Multiple File Upload Input" [ref=e67] [cursor=pointer]:
+        - /url: https://davidwalsh.name/multiple-file-upload
+```
