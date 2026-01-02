@@ -1,28 +1,18 @@
-exports.HomePage=class HomePage{
+exports.CartPage = class CartPage{
 
     constructor(page){
-        this.page=page;
-        this.ProductList='//*[@id="tbodyid"]/div/div/div/h4/a';
-        this.addToCarrtbtn='//a[normalize-space()="Add to cart"]'
-        this.cart="#cartur"
+        this.page = page;
+        this.noOfProducts = '//tbody[@id="tbodyid]/tr/td[2]'
     }
 
-    async addProductToCart(productName){
-        const ProductList=await this.page.$$(this.ProductList);
-        for (const product of ProductList) {
-            if (productName===await product.textcontent())   {
-                await product.click()
+    async checkProductInCart(productName){
+        const productsInCart = await this.page.$$(this.noOfProducts)
+        for(const product of productsInCart){
+            console.log(await product.textContent())
+            if(productName === await product.textContent()){
+                return true;
                 break;
             }
         }
-        await this.page.on('dialog',async dialog=>{
-            if(dialog.message().includes('added')){
-                await dialog.accept();
-            }
-        })
-        await this.page.locator(this.addToCarrtbtn).click();
-    }
-    async gotoCart() {
-        await this.page.locator(this.cart).click();
     }
 }

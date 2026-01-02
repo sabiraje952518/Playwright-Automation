@@ -1,0 +1,226 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - link "jQuery contextMenu (2.x)" [ref=e5] [cursor=pointer]:
+        - /url: https://swisnl.github.io/jQuery-contextMenu/
+      - navigation "main navigation" [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Introduction" [ref=e9] [cursor=pointer]:
+              - /url: https://swisnl.github.io/jQuery-contextMenu//
+          - listitem [ref=e10]:
+            - link "Documentation" [ref=e11] [cursor=pointer]:
+              - /url: https://swisnl.github.io/jQuery-contextMenu/docs.html
+          - listitem [ref=e12]:
+            - link "Demo gallery" [ref=e13] [cursor=pointer]:
+              - /url: https://swisnl.github.io/jQuery-contextMenu/demo.html
+            - list [ref=e14]:
+              - listitem [ref=e15]:
+                - link "Simple Context Menu" [ref=e16] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo.html
+              - listitem [ref=e17]:
+                - link "FontAwesome icons" [ref=e18] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/fontawesome-icons.html
+              - listitem [ref=e19]:
+                - link "Accesskeys" [ref=e20] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/accesskeys.html
+              - listitem [ref=e21]:
+                - link "Create Context Menu (asynchronous)" [ref=e22] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/async-create.html
+              - listitem [ref=e23]:
+                - link "Create Context Menu (promise)" [ref=e24] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/async-promise.html
+              - listitem [ref=e25]:
+                - link "Command's action (callbacks)" [ref=e26] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/callback.html
+              - listitem [ref=e27]:
+                - link "Custom Command Types" [ref=e28] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/custom-command.html
+              - listitem [ref=e29]:
+                - link "Disabled Command" [ref=e30] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/disabled.html
+              - listitem [ref=e31]:
+                - link "Disabled Callback Command" [ref=e32] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/disabled-callback.html
+              - listitem [ref=e33]:
+                - link "Changing Command's disabled status" [ref=e34] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/disabled-changing.html
+              - listitem [ref=e35]:
+                - link "Disabled Menu" [ref=e36] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/disabled-menu.html
+              - listitem [ref=e37]:
+                - link "Adding new Context Menu Triggers" [ref=e38] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/dynamic.html
+              - listitem [ref=e39]:
+                - link "Create Context Menu on demand" [ref=e40] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/dynamic-create.html
+              - listitem [ref=e41]:
+                - link "Importing HTML5 menu" [ref=e42] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/html5-import.html
+              - listitem [ref=e43]:
+                - link "HTML5 polyfill" [ref=e44] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/html5-polyfill.html
+              - listitem [ref=e45]:
+                - link "HTML5 polyfill (Firefox)" [ref=e46] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/html5-polyfill-firefox8.html
+              - listitem [ref=e47]:
+                - link "Input Commands" [ref=e48] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/input.html
+              - listitem [ref=e49]:
+                - link "Keeping the context menu open" [ref=e50] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/keeping-contextmenu-open.html
+              - listitem [ref=e51]:
+                - link "Menus with titles" [ref=e52] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/menu-title.html
+              - listitem [ref=e53]:
+                - link "Context Menu on DOM Element" [ref=e54] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/on-dom-element.html
+              - listitem [ref=e55]:
+                - link "Submenus" [ref=e56] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/sub-menus.html
+              - listitem [ref=e57]:
+                - link "Custom Activated Context Menu" [ref=e58] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/trigger-custom.html
+              - listitem [ref=e59]:
+                - link "Hover Activated Context Menu" [ref=e60] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/trigger-hover.html
+              - listitem [ref=e61]:
+                - link "Hover Activated Context Menu With Autohide" [ref=e62] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/trigger-hover-autohide.html
+              - listitem [ref=e63]:
+                - link "Left-Click Trigger" [ref=e64] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/trigger-left-click.html
+              - listitem [ref=e65]:
+                - link "Swipe Trigger" [ref=e66] [cursor=pointer]:
+                  - /url: https://swisnl.github.io/jQuery-contextMenu/demo/trigger-swipe.html
+        - generic [ref=e67]:
+          - text: "Maintained by:"
+          - link "Creative Digital Agency" [ref=e68] [cursor=pointer]:
+            - /url: https://www.swis.nl
+            - img [ref=e69]
+            - text: Creative Digital Agency
+    - generic [ref=e70]:
+      - text: 
+      - generic [ref=e72]:
+        - main [ref=e73]:
+          - link " Fork on GitHub" [ref=e74] [cursor=pointer]:
+            - /url: https://github.com/swisnl/jQuery-contextMenu
+          - 'heading "Demo: Simple Context Menu" [level=1] [ref=e75]'
+          - list [ref=e76]:
+            - listitem [ref=e77]:
+              - 'link "Example code: Simple Context Menu" [ref=e78] [cursor=pointer]':
+                - /url: "#example-code-simple-context-menu"
+            - listitem [ref=e79]:
+              - 'link "Example HTML: Simple Context Menu" [ref=e80] [cursor=pointer]':
+                - /url: "#example-html-simple-context-menu"
+            - listitem [ref=e81]:
+              - link "jQuery Context Menu Demo Gallery" [ref=e82] [cursor=pointer]:
+                - /url: "#jquery-context-menu-demo-gallery"
+          - paragraph [ref=e83]:
+            - generic [ref=e84] [cursor=pointer]: right click me
+          - 'heading "Example code: Simple Context Menu" [level=2] [ref=e85]'
+          - code [ref=e87]:
+            - text: $(
+            - generic [ref=e88]: function()
+            - text: "{ $.contextMenu({ selector: '.context-menu-one', callback:"
+            - generic [ref=e89]: function(key, options)
+            - text: "{ var m = \"clicked: \" + key; window.console && console.log(m) || alert(m); }, items: { \"edit\": {name: \"Edit\", icon: \"edit\"}, \"cut\": {name: \"Cut\", icon: \"cut\"}, copy: {name: \"Copy\", icon: \"copy\"}, \"paste\": {name: \"Paste\", icon: \"paste\"}, \"delete\": {name: \"Delete\", icon: \"delete\"}, \"sep1\": \"---------\", \"quit\": {name: \"Quit\", icon:"
+            - generic [ref=e90]: function()
+            - text: "{ return 'context-menu-icon context-menu-icon-quit'; }} } }); $('.context-menu-one').on('click',"
+            - generic [ref=e91]: function(e)
+            - text: "{ console.log('clicked', this); }) });"
+          - 'heading "Example HTML: Simple Context Menu" [level=2] [ref=e92]'
+          - code [ref=e94]:
+            - generic [ref=e95]: <span class="context-menu-one btn btn-neutral">
+            - text: right click me
+            - generic [ref=e96]: </span>
+          - heading "jQuery Context Menu Demo Gallery" [level=2] [ref=e97]
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Simple Context Menu" [ref=e100] [cursor=pointer]:
+                - /url: demo.html
+            - listitem [ref=e101]:
+              - link "Context Menu on DOM Element" [ref=e102] [cursor=pointer]:
+                - /url: demo/on-dom-element.html
+            - listitem [ref=e103]:
+              - link "Adding new Context Menu Triggers" [ref=e104] [cursor=pointer]:
+                - /url: demo/dynamic.html
+            - listitem [ref=e105]:
+              - link "Create Context Menu on demand" [ref=e106] [cursor=pointer]:
+                - /url: demo/dynamic-create.html
+            - listitem [ref=e107]:
+              - link "Create Context Menu (asynchronous)" [ref=e108] [cursor=pointer]:
+                - /url: demo/async-create.html
+            - listitem [ref=e109]:
+              - link "Keeping the context menu open" [ref=e110] [cursor=pointer]:
+                - /url: demo/keeping-contextmenu-open.html
+            - listitem [ref=e111]:
+              - link "Command's action (callbacks)" [ref=e112] [cursor=pointer]:
+                - /url: demo/callback.html
+            - listitem [ref=e113]:
+              - link "Left-Click Trigger" [ref=e114] [cursor=pointer]:
+                - /url: demo/trigger-left-click.html
+            - listitem [ref=e115]:
+              - link "Swipe Trigger" [ref=e116] [cursor=pointer]:
+                - /url: demo/trigger-swipe.html
+            - listitem [ref=e117]:
+              - link "Hover Activated Context Menu" [ref=e118] [cursor=pointer]:
+                - /url: demo/trigger-hover.html
+            - listitem [ref=e119]:
+              - link "Hover Activated Context Menu With Autohide" [ref=e120] [cursor=pointer]:
+                - /url: demo/trigger-hover-autohide.html
+            - listitem [ref=e121]:
+              - link "Custom Activated Context Menu" [ref=e122] [cursor=pointer]:
+                - /url: demo/trigger-custom.html
+            - listitem [ref=e123]:
+              - link "Disabled Menu" [ref=e124] [cursor=pointer]:
+                - /url: demo/disabled-menu.html
+            - listitem [ref=e125]:
+              - link "Disabled Command" [ref=e126] [cursor=pointer]:
+                - /url: demo/disabled.html
+            - listitem [ref=e127]:
+              - link "Disabled Callback Command" [ref=e128] [cursor=pointer]:
+                - /url: demo/disabled-callback.html
+            - listitem [ref=e129]:
+              - link "Changing Command's disabled status" [ref=e130] [cursor=pointer]:
+                - /url: demo/disabled-changing.html
+            - listitem [ref=e131]:
+              - link "Accesskeys" [ref=e132] [cursor=pointer]:
+                - /url: demo/accesskeys.html
+            - listitem [ref=e133]:
+              - link "Submenus" [ref=e134] [cursor=pointer]:
+                - /url: demo/sub-menus.html
+            - listitem [ref=e135]:
+              - link "Input Commands" [ref=e136] [cursor=pointer]:
+                - /url: demo/input.html
+            - listitem [ref=e137]:
+              - link "Custom Command Types" [ref=e138] [cursor=pointer]:
+                - /url: demo/custom-command.html
+            - listitem [ref=e139]:
+              - link "Menus with titles" [ref=e140] [cursor=pointer]:
+                - /url: demo/menu-title.html
+            - listitem [ref=e141]:
+              - link "Importing HTML5" [ref=e142] [cursor=pointer]:
+                - /url: demo/html5-import.html
+              - list:
+                - link:
+                  - /url: demo/html5-import.html
+            - listitem [ref=e143]:
+              - link "HTML5 Polyfill" [ref=e144] [cursor=pointer]:
+                - /url: demo/html5-polyfill.html
+            - listitem [ref=e145]:
+              - link "HTML5 Polyfill (Firefox)" [ref=e146] [cursor=pointer]:
+                - /url: demo/html5-polyfill-firefox8.html
+        - generic [ref=e147]:
+          - separator [ref=e148]
+          - contentinfo [ref=e149]:
+            - paragraph [ref=e150]:
+              - text: Find jQuery contextMenu (2.x) on
+              - link "GitHub" [ref=e151] [cursor=pointer]:
+                - /url: https://github.com/swisnl/jQuery-contextMenu
+              - text: .
+  - text:      
+```
