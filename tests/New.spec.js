@@ -11,9 +11,9 @@ test ('new book', async ({ page }) => {
 
     await page.waitForTimeout(3000);
 
-    //await expect(page).toHaveURL("https://katalon-demo-cura.herokuapp.com/#appointment");
+    await expect(page).toHaveURL("https://katalon-demo-cura.herokuapp.com/#appointment");
 
-    await expect(page).toHaveTitle("CURA Healthcare Service")
+    //await expect(page).toHaveTitle("CURA Healthcare Service")
     await page.locator('#combo_facility').selectOption('Seoul CURA Healthcare Center');
     await page.locator("#chk_hospotal_readmission").check()
     await page.locator("#radio_program_medicaid").check()
